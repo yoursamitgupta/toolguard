@@ -1,0 +1,39 @@
+{
+  "name": "toolguard",
+  "version": "1.0.0",
+  "description": "Zero-dependency static analysis linter for AI Function Calling, MCP (Model Context Protocol), and LLM tool schemas. Prevents hallucinations, ambiguity, and tool execution failures before deployment.",
+  "main": "src/index.js",
+  "bin": {
+    "toolguard": "bin/toolguard.js"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/**/*.test.js",
+    "start": "node bin/toolguard.js"
+  },
+  "keywords": [
+    "ai",
+    "mcp",
+    "model-context-protocol",
+    "function-calling",
+    "linter",
+    "llm-tools",
+    "openai",
+    "anthropic",
+    "claude",
+    "static-analysis"
+  ],
+  "author": "Amit Gupta <32707843+yoursamitgupta@users.noreply.github.com> (https://github.com/yoursamitgupta)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoursamitgupta/toolguard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yoursamitgupta/toolguard/issues"
+  },
+  "homepage": "https://github.com/yoursamitgupta/toolguard#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
